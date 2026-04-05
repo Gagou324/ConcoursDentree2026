@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Concours d'entree Gabriel Ben Osman</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="enHaut">
+           <p class="texteTITRE">
+            Concours d'entrée 2026 - Gabriel Ben Osman
+           </p>
+        </div>
+
+        <div class="contenu">
+
+            <div class="Partie1-2">
+                <div class="conteneurPartie1">
+                    <p class="texte">
+                        Première partie:
+                    </p>
+                    <button id="openModal" class="styleButton"> 
+                        <img src="Apercu/ApercuTexte.png" class="apercu">
+                        <p class="titreItem">Le texte</p>
+                    </button>
+
+                    <div class="modal" id="modal">
+                        <div class="texteIntro">
+                                <button class="bouttonX" id="closeModal">&times;</button>
+                            <iframe src="texteIntro.pdf#toolbar=0&view=FitH&zoom=150" width="100%" height="100%">
+                            </iframe> 
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <p class="texte">
+                        Deuxième partie:
+                    </p>
+                    <div class="partie2">
+                        <button id="openModal2" class="styleButton"> 
+                            <img src="Apercu/ApercuDecor.png" class="apercu">
+                            <p class="titreItem">Descriptif du Décor</p>
+                        </button>
+                        <div class="modal" id="modal2">
+                    
+                            <div class="texteIntro">
+                                <button class="bouttonX" id="closeModal2">&times;</button>
+                                <iframe src="Partie2PDF.pdf#toolbar=0&view=FitH&zoom=150" width="100%" height="100%">
+                                </iframe> 
+                            </div>
+                        </div>
+
+                        <button id="openModal3" class="styleButton"> 
+                            <img src="Apercu/ApercuPlanDecor.png" class="apercu">
+                            <p class="titreItem">Plans au sol et de coupe</p>
+                        </button>
+                        <div class="modal" id="modal3">
+                    
+                            <div class="texteIntro">
+                                <button class="bouttonX" id="closeModal3">&times;</button>
+                                <iframe src="plan_decor.pdf#toolbar=0&view=FitH&zoom=150" width="100%" height="100%">
+                                </iframe> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+
+
+
+
+
+
+            <div class="Parties">
+                <p class="texte">
+                    Troisième partie:
+                </p>
+                <div class="partie2">
+                    <button id="openModal4" class="styleButton"> 
+                        <img src="Apercu/ApercuMEP.png" class="apercu">
+                        <p class="titreItem">Mise en place des personnages</p>
+                    </button>
+                    <div class="modal" id="modal4">
+                
+                        <div class="texteIntro">
+                            <button class="bouttonX" id="closeModal4">&times;</button>
+                            <iframe src="MEP.pdf#toolbar=0&view=FitH&zoom=150" width="100%" height="100%">
+                            </iframe> 
+                        </div>
+                    </div>
+
+                    <button id="openModal5" class="styleButton"> 
+                        <img src="Apercu/ApercuEffets.png" class="apercu">
+                        <p class="titreItem">Effets de lumière</p>
+                    </button>
+                    <div class="modal" id="modal5">
+                
+                        <div class="texteIntro">
+                            <button class="bouttonX" id="closeModal5">&times;</button>
+                            <iframe src="Effets.pdf#toolbar=0&view=FitH&zoom=150" width="100%" height="100%">
+                            </iframe> 
+                        </div>
+                    </div>
+
+                    <button id="openModal6" class="styleButton"> 
+                        <img src="Apercu/ApercuPlanEclairage.png" class="apercu">
+                        <p class="titreItem">Plan d'éclairage</p>
+                    </button>
+                    <div class="modal" id="modal6">
+                
+                        <div class="texteIntro">
+                            <button class="bouttonX" id="closeModal6">&times;</button>
+                            <iframe src="PlanEclairage.pdf#toolbar=0&view=FitH&zoom=150" width="100%" height="100%">
+                            </iframe> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
